@@ -1,0 +1,21 @@
+{
+  "name": "haruhiko-zht/japanpost-tracking",
+  "description": "Scrape japan-post's delivery status by tracking code.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "haruhiko-zht"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-curl": "*",
+    "ext-dom": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tracking\\": "src/Tracking/"
+    }
+  }
+}
